@@ -4,4 +4,9 @@
 ### Для запуска примеров на TS: `ts-node src/pattern-name.ts` 
 (Предварительно установив `sudo npm install -g ts-node`)
 
+* Creational Patterns
+  * Factory
+  * Prototype
+  * Singleton
+
 
