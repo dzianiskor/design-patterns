@@ -1,0 +1,43 @@
+/*
+    Flyweight - паттерн похож на кеширование. Т.е. не создает однотипные объекты тем самым экономя память.
+    Например в браузере загрузка изображений или кеширование работает подобным образом.
+*/
+
+class Car {
+  constructor(model, price) {
+    this.model = model;
+    this.price = price;
+  }
+}
+
+class CarFactory {
+  constructor() {
+    this.cars = [];
+  }
+
+  create(model, price) {
+    const candidate = this.getCar(model);
+    // Если модель уже есть отдаем ее, а не добавляем новую
+    if (candidate) {
+      return candidate;
+    }
+    // Создаем новую модель
+    const newCar = new Car(model, price);
+    this.cars.push(newCar);
+    return newCar;
+  }
+
+  getCar(model) {
+    return this.cars.find((car) => car.model === model);
+  }
+}
+
+const factory = new CarFactory();
+
+const bmwX6 = factory.create("bmw", 10000);
+const audi = factory.create("audi", 12000);
+const bmwX3 = factory.create("bmw", 8000);
+
+console.log(bmwX6);
+console.log(audi);
+console.log(bmwX3); // bmwX6 === bmwX3

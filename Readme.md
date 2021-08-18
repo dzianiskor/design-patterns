@@ -12,5 +12,6 @@
   * Adapter
   * Decorator
   * Facade
+  * Flyweight
 
 
