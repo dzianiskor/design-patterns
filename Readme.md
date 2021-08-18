@@ -8,5 +8,7 @@
   * Factory
   * Prototype
   * Singleton
+* Structural Patterns
+  * Adapter
 
 
