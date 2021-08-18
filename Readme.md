@@ -10,5 +10,6 @@
   * Singleton
 * Structural Patterns
   * Adapter
+  * Decorator
 
 
