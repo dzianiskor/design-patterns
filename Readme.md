@@ -11,5 +11,6 @@
 * Structural Patterns
   * Adapter
   * Decorator
+  * Facade
 
 
