@@ -19,5 +19,6 @@
   * Command
   * Iterator
   * Mediator
+  * Observer
 
 
