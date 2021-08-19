@@ -18,5 +18,6 @@
   * Chain of Responsibility
   * Command
   * Iterator
+  * Mediator
 
 
