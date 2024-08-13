@@ -8,17 +8,25 @@
   * Factory
   * Prototype
   * Singleton
+  * Builder
 * Structural Patterns
   * Adapter
   * Decorator
   * Facade
   * Flyweight
   * Proxy
+  * Bridge
+  * Composite
 * Behavioral Patterns 
   * Chain of Responsibility
   * Command
   * Iterator
   * Mediator
   * Observer
+  * Memento
+  * State
+  * Strategy
+  * Template method
+  * Visitor
 
 
